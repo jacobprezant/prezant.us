@@ -1,0 +1,45 @@
+site_name: "Jacob Prezant's Blog"
+site_url: https://prezant.us
+site_description: "Mobile security & application research."
+theme:
+  favicon: assets/mobile-solid.svg
+  icon:
+    logo: fontawesome/solid/mobile
+  font:
+      text: Merriweather Sans
+      code: Red Hat Mono
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: deep orange
+      accent: deep purple
+
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+      categories_allowed:
+copyright: "&copy; 2025 Jacob Prezant, GMOB"
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - footnotes
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
