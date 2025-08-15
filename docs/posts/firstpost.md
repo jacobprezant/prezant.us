@@ -12,7 +12,7 @@ a new multi-layer format. This introduces the `.icon` extension, the standard fo
 
 With this new proprietary format, we'll need to understand how the icons are stored and bundled to implement support for `.icon` files in our applications.
 
-The `.icon` file itself is simply a folder, in which there is an `icon.json` file and an `assets` subfolder. This JSON file is what Icon Composer interprets. It's made up of key-valuepairs pointing to files within `assets` within a `layers` object along with other icon details like `translucency`, an sRGB for the gradient, `shadow`, etc.
+The `.icon` file itself is simply a folder, in which there is an `icon.json` file and an `assets` subfolder. This JSON file is what Icon Composer interprets. It's made up of key-value pairs pointing to files within `assets` within a `layers` object along with other icon details like `translucency`, an sRGB for the gradient, `shadow`, etc.
 
 See a sample `icon.json` for a simple icon made with Icon Composer:
 ``` json title="icon.json"
