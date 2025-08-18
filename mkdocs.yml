@@ -51,3 +51,5 @@ extra:
       link: mailto:jacob@prezant.us
     - icon: fontawesome/brands/orcid
       link: https://orcid.org/0009-0005-5791-4270
+    - icon: simple/hackerone
+      link: https://hackerone.com/jacobprezant
