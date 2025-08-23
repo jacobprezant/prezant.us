@@ -2,6 +2,9 @@ site_name: "Jacob Prezant's Blog"
 site_url: https://prezant.us
 site_description: "Mobile security & application research."
 theme:
+  features: 
+    - navigation.instant
+    - navigation.instant.prefetch
   favicon: assets/mobile-solid.svg
   icon:
     logo: fontawesome/solid/mobile
